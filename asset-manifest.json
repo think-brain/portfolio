@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/n.ai/static/css/main.5886ae54.chunk.css",
-    "main.js": "/n.ai/static/js/main.c34a7a5d.chunk.js",
-    "main.js.map": "/n.ai/static/js/main.c34a7a5d.chunk.js.map",
-    "runtime-main.js": "/n.ai/static/js/runtime-main.07f6714d.js",
-    "runtime-main.js.map": "/n.ai/static/js/runtime-main.07f6714d.js.map",
+    "main.js": "/n.ai/static/js/main.172f1e4a.chunk.js",
+    "main.js.map": "/n.ai/static/js/main.172f1e4a.chunk.js.map",
+    "runtime-main.js": "/n.ai/static/js/runtime-main.587b6fe7.js",
+    "runtime-main.js.map": "/n.ai/static/js/runtime-main.587b6fe7.js.map",
     "static/css/2.573eb37f.chunk.css": "/n.ai/static/css/2.573eb37f.chunk.css",
-    "static/js/2.a47cea9f.chunk.js": "/n.ai/static/js/2.a47cea9f.chunk.js",
-    "static/js/2.a47cea9f.chunk.js.map": "/n.ai/static/js/2.a47cea9f.chunk.js.map",
-    "static/js/3.40adbb26.chunk.js": "/n.ai/static/js/3.40adbb26.chunk.js",
-    "static/js/3.40adbb26.chunk.js.map": "/n.ai/static/js/3.40adbb26.chunk.js.map",
+    "static/js/2.ddc9e3f9.chunk.js": "/n.ai/static/js/2.ddc9e3f9.chunk.js",
+    "static/js/2.ddc9e3f9.chunk.js.map": "/n.ai/static/js/2.ddc9e3f9.chunk.js.map",
+    "static/js/3.c6f57d8c.chunk.js": "/n.ai/static/js/3.c6f57d8c.chunk.js",
+    "static/js/3.c6f57d8c.chunk.js.map": "/n.ai/static/js/3.c6f57d8c.chunk.js.map",
     "index.html": "/n.ai/index.html",
     "static/css/2.573eb37f.chunk.css.map": "/n.ai/static/css/2.573eb37f.chunk.css.map",
     "static/css/main.5886ae54.chunk.css.map": "/n.ai/static/css/main.5886ae54.chunk.css.map",
-    "static/js/2.a47cea9f.chunk.js.LICENSE.txt": "/n.ai/static/js/2.a47cea9f.chunk.js.LICENSE.txt",
+    "static/js/2.ddc9e3f9.chunk.js.LICENSE.txt": "/n.ai/static/js/2.ddc9e3f9.chunk.js.LICENSE.txt",
     "static/media/home_education.a38cff45.svg": "/n.ai/static/media/home_education.a38cff45.svg",
     "static/media/offering_data.ea7e58cb.svg": "/n.ai/static/media/offering_data.ea7e58cb.svg",
     "static/media/offering_industry.289cd0d8.svg": "/n.ai/static/media/offering_industry.289cd0d8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.07f6714d.js",
+    "static/js/runtime-main.587b6fe7.js",
     "static/css/2.573eb37f.chunk.css",
-    "static/js/2.a47cea9f.chunk.js",
+    "static/js/2.ddc9e3f9.chunk.js",
     "static/css/main.5886ae54.chunk.css",
-    "static/js/main.c34a7a5d.chunk.js"
+    "static/js/main.172f1e4a.chunk.js"
   ]
 }
