@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/n.ai/static/css/main.adb7d709.chunk.css",
-    "main.js": "/n.ai/static/js/main.fa029360.chunk.js",
-    "main.js.map": "/n.ai/static/js/main.fa029360.chunk.js.map",
-    "runtime-main.js": "/n.ai/static/js/runtime-main.98be34dd.js",
-    "runtime-main.js.map": "/n.ai/static/js/runtime-main.98be34dd.js.map",
+    "main.css": "/n.ai/static/css/main.9ad1d658.chunk.css",
+    "main.js": "/n.ai/static/js/main.f2e8c257.chunk.js",
+    "main.js.map": "/n.ai/static/js/main.f2e8c257.chunk.js.map",
+    "runtime-main.js": "/n.ai/static/js/runtime-main.53c389f4.js",
+    "runtime-main.js.map": "/n.ai/static/js/runtime-main.53c389f4.js.map",
     "static/css/2.573eb37f.chunk.css": "/n.ai/static/css/2.573eb37f.chunk.css",
-    "static/js/2.8dfc6582.chunk.js": "/n.ai/static/js/2.8dfc6582.chunk.js",
-    "static/js/2.8dfc6582.chunk.js.map": "/n.ai/static/js/2.8dfc6582.chunk.js.map",
-    "static/js/3.a10c15f4.chunk.js": "/n.ai/static/js/3.a10c15f4.chunk.js",
-    "static/js/3.a10c15f4.chunk.js.map": "/n.ai/static/js/3.a10c15f4.chunk.js.map",
+    "static/js/2.fe961cb1.chunk.js": "/n.ai/static/js/2.fe961cb1.chunk.js",
+    "static/js/2.fe961cb1.chunk.js.map": "/n.ai/static/js/2.fe961cb1.chunk.js.map",
+    "static/js/3.a16c05bb.chunk.js": "/n.ai/static/js/3.a16c05bb.chunk.js",
+    "static/js/3.a16c05bb.chunk.js.map": "/n.ai/static/js/3.a16c05bb.chunk.js.map",
     "index.html": "/n.ai/index.html",
     "static/css/2.573eb37f.chunk.css.map": "/n.ai/static/css/2.573eb37f.chunk.css.map",
-    "static/css/main.adb7d709.chunk.css.map": "/n.ai/static/css/main.adb7d709.chunk.css.map",
-    "static/js/2.8dfc6582.chunk.js.LICENSE.txt": "/n.ai/static/js/2.8dfc6582.chunk.js.LICENSE.txt",
+    "static/css/main.9ad1d658.chunk.css.map": "/n.ai/static/css/main.9ad1d658.chunk.css.map",
+    "static/js/2.fe961cb1.chunk.js.LICENSE.txt": "/n.ai/static/js/2.fe961cb1.chunk.js.LICENSE.txt",
     "static/media/home_education.a38cff45.svg": "/n.ai/static/media/home_education.a38cff45.svg",
     "static/media/offering_data.ea7e58cb.svg": "/n.ai/static/media/offering_data.ea7e58cb.svg",
     "static/media/offering_industry.289cd0d8.svg": "/n.ai/static/media/offering_industry.289cd0d8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.98be34dd.js",
+    "static/js/runtime-main.53c389f4.js",
     "static/css/2.573eb37f.chunk.css",
-    "static/js/2.8dfc6582.chunk.js",
-    "static/css/main.adb7d709.chunk.css",
-    "static/js/main.fa029360.chunk.js"
+    "static/js/2.fe961cb1.chunk.js",
+    "static/css/main.9ad1d658.chunk.css",
+    "static/js/main.f2e8c257.chunk.js"
   ]
 }
