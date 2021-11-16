@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/n.ai/static/css/main.c84535c5.chunk.css",
-    "main.js": "/n.ai/static/js/main.7ae3e556.chunk.js",
-    "main.js.map": "/n.ai/static/js/main.7ae3e556.chunk.js.map",
-    "runtime-main.js": "/n.ai/static/js/runtime-main.53c389f4.js",
-    "runtime-main.js.map": "/n.ai/static/js/runtime-main.53c389f4.js.map",
-    "static/css/2.573eb37f.chunk.css": "/n.ai/static/css/2.573eb37f.chunk.css",
-    "static/js/2.fe961cb1.chunk.js": "/n.ai/static/js/2.fe961cb1.chunk.js",
-    "static/js/2.fe961cb1.chunk.js.map": "/n.ai/static/js/2.fe961cb1.chunk.js.map",
-    "static/js/3.a16c05bb.chunk.js": "/n.ai/static/js/3.a16c05bb.chunk.js",
-    "static/js/3.a16c05bb.chunk.js.map": "/n.ai/static/js/3.a16c05bb.chunk.js.map",
+    "main.css": "/n.ai/static/css/main.db28aa00.chunk.css",
+    "main.js": "/n.ai/static/js/main.6abc3697.chunk.js",
+    "main.js.map": "/n.ai/static/js/main.6abc3697.chunk.js.map",
+    "runtime-main.js": "/n.ai/static/js/runtime-main.1eae16a5.js",
+    "runtime-main.js.map": "/n.ai/static/js/runtime-main.1eae16a5.js.map",
+    "static/css/2.9bf1f131.chunk.css": "/n.ai/static/css/2.9bf1f131.chunk.css",
+    "static/js/2.153e48b6.chunk.js": "/n.ai/static/js/2.153e48b6.chunk.js",
+    "static/js/2.153e48b6.chunk.js.map": "/n.ai/static/js/2.153e48b6.chunk.js.map",
+    "static/js/3.d1eda27d.chunk.js": "/n.ai/static/js/3.d1eda27d.chunk.js",
+    "static/js/3.d1eda27d.chunk.js.map": "/n.ai/static/js/3.d1eda27d.chunk.js.map",
     "index.html": "/n.ai/index.html",
-    "static/css/2.573eb37f.chunk.css.map": "/n.ai/static/css/2.573eb37f.chunk.css.map",
-    "static/css/main.c84535c5.chunk.css.map": "/n.ai/static/css/main.c84535c5.chunk.css.map",
-    "static/js/2.fe961cb1.chunk.js.LICENSE.txt": "/n.ai/static/js/2.fe961cb1.chunk.js.LICENSE.txt",
+    "static/css/2.9bf1f131.chunk.css.map": "/n.ai/static/css/2.9bf1f131.chunk.css.map",
+    "static/css/main.db28aa00.chunk.css.map": "/n.ai/static/css/main.db28aa00.chunk.css.map",
+    "static/js/2.153e48b6.chunk.js.LICENSE.txt": "/n.ai/static/js/2.153e48b6.chunk.js.LICENSE.txt",
     "static/media/gettings_chat.c0775a29.svg": "/n.ai/static/media/gettings_chat.c0775a29.svg",
     "static/media/gettings_course.4fc9773f.svg": "/n.ai/static/media/gettings_course.4fc9773f.svg",
     "static/media/gettings_jobs.6843fea4.svg": "/n.ai/static/media/gettings_jobs.6843fea4.svg",
@@ -23,10 +23,10 @@
     "static/media/offering_industry.289cd0d8.svg": "/n.ai/static/media/offering_industry.289cd0d8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.53c389f4.js",
-    "static/css/2.573eb37f.chunk.css",
-    "static/js/2.fe961cb1.chunk.js",
-    "static/css/main.c84535c5.chunk.css",
-    "static/js/main.7ae3e556.chunk.js"
+    "static/js/runtime-main.1eae16a5.js",
+    "static/css/2.9bf1f131.chunk.css",
+    "static/js/2.153e48b6.chunk.js",
+    "static/css/main.db28aa00.chunk.css",
+    "static/js/main.6abc3697.chunk.js"
   ]
 }
