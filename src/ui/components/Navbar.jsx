@@ -1,11 +1,11 @@
 import { Transition } from '@headlessui/react';
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from "react-scroll"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav>
+    <nav className="fixed inset-x-0  z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center justify-between w-full">
@@ -19,29 +19,55 @@ function Navbar() {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link
-                  to="#"
-                  className="hover:bg-green-500 px-3 hover:text-white py-2 rounded-full text-lg font-medium"
+                  to="home"
+                  spy={true}
+                  duration={500}
+                  smooth={true}
+                  activeClass="active"
+                  className="hover:bg-green-500 px-3 hover:text-white py-2 rounded-full text-lg font-medium cursor-pointer"
                 >
                   Home
                 </Link>
 
-                <Link
-                  to="#offering"
-                  className="hover:bg-green-500 hover:text-white px-3 py-2 rounded-full text-lg font-medium"
+                {/* <Link
+                  to="offering"
+                  spy={true}
+                  duration={500}
+                  smooth={true}
+                  activeClass="active"
+                  className="hover:bg-green-500 hover:text-white px-3 py-2 rounded-full text-lg font-medium cursor-pointer"
                 >
                   Offerings
-                </Link>
+                </Link> */}
 
                 <Link
-                  to="#"
-                  className="hover:bg-green-500 hover:text-white px-3 py-2 rounded-full text-lg font-medium"
+                  to="syllabus"
+                  spy={true}
+                  duration={600}
+                  smooth={true}
+                  activeClass="active"
+                  className="hover:bg-green-500 hover:text-white px-3 py-2 rounded-full text-lg font-medium cursor-pointer"
                 >
                   Syllabus
                 </Link>
 
                 <Link
-                  to="#"
-                  className="hover:bg-green-500 hover:text-white px-3 py-2 rounded-full text-lg font-medium"
+                  to="gettings"
+                  spy={true}
+                  duration={800}
+                  smooth={true}
+                  activeClass="active"
+                  className="hover:bg-green-500 hover:text-white px-3 py-2 rounded-full text-lg font-medium cursor-pointer"
+                >
+                  Outcomes
+                </Link>
+                <Link
+                  to="contact"
+                  spy={true}
+                  duration={800}
+                  smooth={true}
+                  activeClass="active"
+                  className="hover:bg-green-500 hover:text-white px-3 py-2 rounded-full text-lg font-medium cursor-pointer"
                 >
                   Contact
                 </Link>
@@ -106,30 +132,30 @@ function Navbar() {
       >
         {(ref) => (
           <div className="md:hidden" id="mobile-menu">
-            <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
               <Link
-                to="#"
+                to="home"
                 className="hover:bg-green-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Home
               </Link>
 
-              <Link
+              {/* <Link
                 to="#offering"
                 className="hover:bg-green-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Offering
-              </Link>
+              </Link> */}
 
               <Link
-                to="#syllabus"
+                to="syllabus"
                 className="hover:bg-green-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Syllabus
               </Link>
 
               <Link
-                to="#"
+                to="contact"
                 className="hover:bg-green-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Contact
