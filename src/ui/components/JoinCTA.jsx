@@ -18,7 +18,13 @@ const JoinCTA = () => {
         </h2>
         <div class="lg:mt-0 lg:flex-shrink-0">
           <div class="mt-12 inline-flex">
-            <ModalForm />
+            {/* <ModalForm /> */}
+            <button
+              data-tf-popup="uPScI5Gs"
+              className="bg-green-500 text-white active:bg-pink-600 font-bold text-xl uppercase px-6 py-3 rounded-2xl hover:bg-green-800 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+            >
+              Join Us
+            </button>
           </div>
         </div>
       </div>

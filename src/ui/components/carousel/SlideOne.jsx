@@ -16,12 +16,12 @@ const SlideOne = () => {
                     <img src={HomeSvg} alt="SVG" className="lg:w-2/3" />
                     <div className="md:px-6">
                         <p className="text-green-500 font-semibold text-xl my-4">Make your great Future</p>
-                        <p className="text-5xl font-bold my-2">Online Course Expert Teaching</p>
+                        <p className="text-5xl font-bold my-2">Get job ready with Thinkbrain’s AI program.</p>
                         <p className="text-gray-400 mt-8">
-                            Careers in AI have grown in popularity in recent years as a result of the demands of digitally altered sectors
+                            "By 2030, AI will have contributed $16.1 trillion to the global economy. AI will revolutionise the workforce with 133 million more engaging, less repetitive employment." The combination of data science and artificial intelligence (AI) is causing a revolution in the commercial world.
                         </p>
                         <p className="text-gray-400 my-4">
-                            Get industry ready with our 100% job guaranteed and 100% free courses taught by industry experts and grab those ever increasing job vacancies before anyone else does.
+                            So what are you waiting for. Get industry ready with our Job Guarantee Program in AI and Data Science taught by industry experts and grab those ever increasing job vacancies before anyone else does.
                         </p>
                     </div>
                 </div>

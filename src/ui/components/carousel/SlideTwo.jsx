@@ -17,7 +17,7 @@ const SlideTwo = () => {
                 <div className="flex flex-col lg:flex-row md:px-5 max-w-7xl mx-auto justify-evenly items-center h-full">
                     <img src={IndustrySvg} alt="SVG" className="lg:w-2/3" />
                     <div className="md:px-6">
-                        <p className="text-green-500 font-semibold text-xl my-4">Make your great Future</p>
+                        <p className="text-green-500 font-semibold text-xl my-4">Global standard curriculum.</p>
                         <p className="text-5xl font-bold my-2">Courses on par to Industry Standards.</p>
                         <p className="text-gray-400 mt-8">
                             Industry oriented curriculum,we only teach you the in demand skills.

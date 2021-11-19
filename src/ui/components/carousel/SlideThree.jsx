@@ -17,7 +17,7 @@ const SlideThree = () => {
                     <img src={DataSvg} alt="SVG" className="lg:w-2/3" />
                     <div className="md:px-6">
                         <p className="text-green-500 font-semibold text-xl my-4">Grow data knowledge</p>
-                        <p className="text-5xl font-bold my-2">Data science Advanced Practices and Applications</p>
+                        <p className="text-5xl font-bold my-2">Data science Advanced Practices and Applications.</p>
                         <p className="text-gray-400 mt-8">
                             Core concepts and more practical sessions of Data science.
                         </p>
