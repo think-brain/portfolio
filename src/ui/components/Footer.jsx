@@ -2,11 +2,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { SiGmail, SiFacebook, SiTwitter, SiLinkedin } from 'react-icons/si'
+import ThinkBrain from '../../assets/svgs/thinkbrain.svg'
+
 const Footer = () => {
   return (
     <div id="contact" className="pt-12">
       <footer id="footer" className="relative z-50 dark:bg-gray-900 pt-6">
-        <div className=" border-t border-b border-gray-200 dark:border-gray-700 py-16">
+        {/* <div className=" border-t border-b border-gray-200 dark:border-gray-700 py-16">
           <div className="mx-auto container px-4 xl:px-12 2xl:px-4">
             <div className="lg:flex">
               <div className="w-full lg:w-1/2 mb-16 lg:mb-0 flex">
@@ -82,8 +84,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="py-12 flex flex-col justify-center items-center">
+        </div> */}
+        <div className="py-12 flex flex-col justify-center items-center border-t-2">
           <p>Contact Us</p>
           <div className="py-4 flex">
             <SiGmail className="cursor-pointer m-4 h-8 w-8" />
@@ -96,12 +98,12 @@ const Footer = () => {
             <a>
               <img
                 className="h-8 w-8"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                src={ThinkBrain}
                 alt="Workflow"
               />
             </a>
           </a>
-          <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">2021 Neural.ai. All Rights Reserved.</p>
+          <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">&#169; 2021 Thinkbrain.in. All Rights Reserved.</p>
         </div>
       </footer>
     </div>

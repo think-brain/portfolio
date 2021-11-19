@@ -2,15 +2,13 @@ import React from "react";
 import PhoneInput from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
 
-
-
 export default function ModalForm() {
   const [showModal, setShowModal] = React.useState(false);
   const [num, setNum] = React.useState('')
   return (
     <>
       <button
-        className="bg-green-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded-2xl hover:bg-green-800 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        className="bg-green-500 text-white active:bg-pink-600 font-bold text-xl uppercase px-6 py-3 rounded-2xl hover:bg-green-800 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
         type="button"
         onClick={() => setShowModal(true)}
       >

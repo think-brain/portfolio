@@ -11,7 +11,6 @@ const SyllabusBox = ({ text, content }) => {
 
   function toggleAccordion() {
     setActive(!active)
-    // @ts-ignore
     setHeight(active ? '0px' : `${contentSpace.current.scrollHeight}px`)
     setRotate(active ? 'transform duration-700 ease' : 'transform duration-700 ease rotate-180')
   }

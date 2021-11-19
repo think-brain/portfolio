@@ -10,13 +10,14 @@ import Syllabus from "./ui/screens/Syllabus";
 function App() {
   return (
     <Router>
-        <Navbar />
-        <Home />
+      <Navbar />
+      <Home />
+      <div id="courses">
         <JoinCTA />
-        {/* <Offering /> */}
         <Syllabus />
-        <Gettings />
-        <Footer />
+      </div>
+      <Gettings />
+      <Footer />
     </Router>
   );
 }

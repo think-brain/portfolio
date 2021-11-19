@@ -12,7 +12,7 @@ const Gettings = () => {
   return (
     <div id="gettings">
       <h1 class="py-16 font-bold text-4xl text-center text-gray-800">
-        What will you get?
+        Program Benefits
       </h1>
       <div class="flex flex-col bg-white m-auto p-auto">
         <div

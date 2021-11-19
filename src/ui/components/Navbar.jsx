@@ -1,18 +1,29 @@
 import { Transition } from '@headlessui/react';
 import React, { useState } from 'react'
 import { Link } from "react-scroll"
+import ThinkBrain from '../../assets/svgs/thinkbrain.svg'
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [changeColor, setChangeColor] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setChangeColor(true);
+    }
+    else {
+      setChangeColor(false);
+    }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
   return (
-    <nav className="fixed inset-x-0  z-10">
+    <nav className={`fixed inset-x-0 z-10 ${changeColor ? 'bg-white' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center justify-between w-full">
             <div className="flex-shrink-0">
               <img
-                className="h-8 w-8"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                className="h-10 w-10 cursor-pointer"
+                src={ThinkBrain}
                 alt="Workflow"
               />
             </div>
@@ -41,14 +52,14 @@ function Navbar() {
                 </Link> */}
 
                 <Link
-                  to="syllabus"
+                  to="courses"
                   spy={true}
                   duration={600}
                   smooth={true}
                   activeClass="active"
                   className="hover:bg-green-500 hover:text-white px-3 py-2 rounded-full text-lg font-medium cursor-pointer"
                 >
-                  Syllabus
+                  Courses
                 </Link>
 
                 <Link
@@ -59,7 +70,7 @@ function Navbar() {
                   activeClass="active"
                   className="hover:bg-green-500 hover:text-white px-3 py-2 rounded-full text-lg font-medium cursor-pointer"
                 >
-                  Outcomes
+                  Resources
                 </Link>
                 <Link
                   to="contact"
@@ -69,7 +80,7 @@ function Navbar() {
                   activeClass="active"
                   className="hover:bg-green-500 hover:text-white px-3 py-2 rounded-full text-lg font-medium cursor-pointer"
                 >
-                  Contact
+                  Contact Us
                 </Link>
               </div>
             </div>
@@ -148,17 +159,24 @@ function Navbar() {
               </Link> */}
 
               <Link
-                to="syllabus"
+                to="courses"
                 className="hover:bg-green-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                Syllabus
+                Courses
+              </Link>
+
+              <Link
+                to="outcomes"
+                className="hover:bg-green-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Resources
               </Link>
 
               <Link
                 to="contact"
                 className="hover:bg-green-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                Contact
+                Contact Us
               </Link>
             </div>
           </div>

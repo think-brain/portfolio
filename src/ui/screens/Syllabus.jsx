@@ -4,8 +4,8 @@ import SyllabusBox from '../components/SyllabusBox'
 
 const Syllabus = () => {
   return (
-    <div id="syllabus" className="bg-green-50 py-8">
-      <p className="text-center font-bold py-12 text-4xl">Our Syllabus Outline</p>
+    <div className="bg-green-50 py-8">
+      <p className="text-center font-bold py-12 text-4xl">Program Courseware</p>
       <div className="lg:flex items-center justify-evenly m-8">
         <SyllabusBox text="Python Fundamental" content="This module covers the fundamentals of programming , Introduction to  Data Structure and Algorithms, and Advance Programming concepts." />
         <SyllabusBox text="Pandas, Numpy, Scipy" content="This module covers the hands on session of different Packages used in Data Science work for data handling , data transformation, applied numerical methods etc." />
