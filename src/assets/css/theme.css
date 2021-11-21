@@ -2,7 +2,6 @@
     background-color: #e5e7eb;
     padding: 0.5rem;
     border-radius: 0.25rem;
-    
 }
 
 .PhoneInputInput:focus {
@@ -10,9 +9,10 @@
 }
 
 .hide-scroll-bar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-  .hide-scroll-bar::-webkit-scrollbar {
-    display: none;
-  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
