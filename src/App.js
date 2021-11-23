@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./ui/components/Footer";
 import JoinCTA from "./ui/components/JoinCTA";
 import Navbar from "./ui/components/Navbar";
+import Faqs from "./ui/screens/Faqs";
 import Gettings from "./ui/screens/Gettings";
 import Home from "./ui/screens/Home";
 import Offering from "./ui/screens/Offering";
@@ -17,6 +18,7 @@ function App() {
         <Syllabus />
       </div>
       <Gettings />
+      <Faqs />
       <Footer />
     </Router>
   );
