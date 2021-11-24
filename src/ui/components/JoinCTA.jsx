@@ -20,7 +20,7 @@ const JoinCTA = () => {
           <div class="mt-12 inline-flex">
             {/* <ModalForm /> */}
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSflD_S5_9hCBkGSGQnWlnYfZO-OmZeyXkM_jEuoDI3kPavRdg/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfAEwd0fz7DzxUvrw62jsqTKL0EExqHiaW2BmiChsorLR6WOw/viewform"
               rel="noreferrer"
               target="_blank"
               className="bg-green-500 text-white active:bg-pink-600 font-bold text-xl uppercase px-6 py-3 rounded-2xl hover:bg-green-800 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
