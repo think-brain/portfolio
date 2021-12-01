@@ -88,7 +88,10 @@ const Footer = () => {
         <div className="py-12 flex flex-col justify-center items-center border-t-2">
           <p>Contact Us</p>
           <div className="py-4 flex">
-            <SiGmail href="mailto:info@thinkbrain.in" className="cursor-pointer m-4 h-8 w-8" />
+            <a href="mailto:info@thinkbrain.in">
+              <SiGmail className="cursor-pointer m-4 h-8 w-8" />
+            </a>
+
             {/* <SiFacebook className="cursor-pointer m-4 h-8 w-8" />
             <SiLinkedin className="cursor-pointer m-4 h-8 w-8" />
             <SiTwitter className="cursor-pointer m-4 h-8 w-8" /> */}
