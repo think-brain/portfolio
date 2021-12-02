@@ -1,5 +1,6 @@
 import React from 'react'
 import ModalForm from './ModalForm'
+import ModalTest from './ModalTest'
 
 const JoinCTA = () => {
   return (
@@ -18,15 +19,15 @@ const JoinCTA = () => {
         </h2>
         <div class="lg:mt-0 lg:flex-shrink-0">
           <div class="mt-12 inline-flex">
-            {/* <ModalForm /> */}
-            <a
+            <ModalForm />
+            {/* <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSepx08DFoIwKuE_fLIqNsvbqUydeW3oU6LnaZUFdy16UmCNuw/viewform"
               rel="noreferrer"
               target="_blank"
               className="bg-green-500 text-white active:bg-pink-600 font-bold text-xl uppercase px-6 py-3 rounded-2xl hover:bg-green-800 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
             >
               Join Us
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
