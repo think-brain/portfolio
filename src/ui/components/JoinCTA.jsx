@@ -19,15 +19,15 @@ const JoinCTA = () => {
         </h2>
         <div class="lg:mt-0 lg:flex-shrink-0">
           <div class="mt-12 inline-flex">
-            <ModalForm />
-            {/* <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSepx08DFoIwKuE_fLIqNsvbqUydeW3oU6LnaZUFdy16UmCNuw/viewform"
+            {/* <ModalForm /> */}
+            <a
+              href="https://ccd62e79.sibforms.com/serve/MUIEAGbW_UcmOsTAYiO4D2PGYqgZ3cBhHMfEz5A7mz6ACMY2cayJBQA-yfPV2s7Xhzv9g20K1GHKfcM_e7m09XZqFAbQzfxoWJUoofKtId0_TsnaC3q5V3_LOH5e86HniqM1TIKD3MiAzn1EunfvucRg49Ju4uj7dZF0zgHKrrJX1GUDOkM4atAxBlVaaUyyRZToU5w5QDwPj0FF"
               rel="noreferrer"
               target="_blank"
               className="bg-green-500 text-white active:bg-pink-600 font-bold text-xl uppercase px-6 py-3 rounded-2xl hover:bg-green-800 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
             >
               Join Us
-            </a> */}
+            </a>
           </div>
         </div>
       </div>
